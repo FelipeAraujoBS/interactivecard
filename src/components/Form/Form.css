@@ -1,0 +1,129 @@
+.Form{
+    font-size: 16px;
+}
+.input{
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1.5%;
+    margin-bottom: 2.5%;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    text-indent: 2%;
+    color: black;  
+}
+.label{
+    color: #343434;
+    font-weight: 500;
+}
+.form-date-cvc{
+    display: flex;
+    margin-top: 5%;
+}
+.form-date div{
+    display: flex;
+    width: 75%;
+    height: 100%;
+}
+.form-date div input{
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    margin-top: 7.5%;
+    width: 80%;
+}
+.form-date div p{
+    margin-top: 55%;
+    margin-left: -70%;
+}
+.form-cvc{
+    width: 100%;
+    margin-left: -5%;
+}
+.form-cvc input{
+    width: 82%;
+    margin-left: 1%;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+.form-cvc label{
+    margin-left: 1%;
+}
+.button{
+    width: 90%;
+    height: 2.5rem;
+    background-color: hsl(278, 68%, 20%);
+    color: lightgray;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: transparent;
+    cursor: pointer;
+    margin: 7.5% 0 1% 0;
+}
+.button-sub{
+    width: 90%;
+    height: 2.5rem;
+    background-color: hsl(278, 68%, 20%);
+    color: lightgray;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: transparent;
+    cursor: pointer;
+    margin: 7.5% 0%;
+}
+.button:hover{
+    color: white;
+    background-color: hsl(278, 68%, 25%);
+}
+.button-sub:hover{
+    color: white;
+    background-color: hsl(278, 68%, 25%);
+}
+.errorText{
+    color: red;
+    font-size: 14px;
+    margin-top: -0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+@media(max-width: 810px){
+    .Form{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -4%;
+        font-size: 12px;
+    }
+    .inputDiv{
+        margin-top: 3%;
+    }
+    .inputDiv .label{
+        color:hsl(278, 68%, 11%);
+        letter-spacing: .15rem;
+    }
+    .form-date .label{
+        color: hsl(278, 68%, 11%);
+        letter-spacing: .10rem;
+    }
+    .form-cvc .label{
+        color: hsl(278, 68%, 11%);
+        letter-spacing: .15rem;
+    }
+    .input{
+        width: 100%;
+        color: hsl(240, 3%, 64%);
+    }
+    .input:focus{
+        color: black;
+    }
+    .button{
+        width: 90%;
+        margin-left: 3%;
+    }
+    .button-sub{
+        width: 90%;
+        margin-left: 3%;
+    }
+    .errorText{
+        font-size: 12px;
+    }
+}
