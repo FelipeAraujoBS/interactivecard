@@ -41,7 +41,7 @@ function App(props) {
       </div>
       <div className="whiteSideBar">
           {!pageState ? <Form formInfo={formData} ccFormat={number} setName={setName} setNumber={setNumber} setDateMM={setDateMM}
-           setDateYY={setDateYY} setCvc={setCvc} onClick={handleState}/> : <SucessPage onClick={handleState} />}
+           setDateYY={setDateYY} setCvc={setCvc} sucessState={setPageState}/> : <SucessPage onClick={handleState} />}
       </div>
     </div>
   );

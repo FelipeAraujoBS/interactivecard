@@ -19,7 +19,7 @@ function Input(props) {
     <div className='inputDiv'>
         <label className='label'>{props.label}</label>
         {element}
-        <p className='errorText'>{props.errorText}</p> 
+        <p className='errorText'>{props.errorMessage}</p> 
     </div>
   )
 }
